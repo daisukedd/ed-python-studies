@@ -6,6 +6,7 @@ def reverse_queue(queue):
     return reversed_queue
 
 # Example
+# In Python, the .copy() method, when used with mutable data structures like lists and dictionaries, creates a shallow copy
 
 my_queue = [1, 20, 300, 4000, 5]
 reversed_queue = reverse_queue(my_queue.copy())
